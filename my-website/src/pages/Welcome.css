@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p, li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1, h2, h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+
+
+.header {
+  position: relative;
+  height: 95vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-content p {
+  text-transform: uppercase;
+}
+/* ... other styles ... */
+
+.lg-heading.text-light.main-heading {
+    font-size: 3.2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white;
+  }
+  
+  .text-light {
+    color: white;
+    font-size: 2.2rem;
+
+  font-weight: bold;
+}
+
+ 
+  
+  /* ... other styles ... */
+/* Add these styles to your Welcome.css file */
+.btn.btn-outline-danger {
+    font-size: 2rem; /* Adjust the font size for a larger button */
+    padding: 20px 40px; /* Adjust padding for a larger button */
+    color:rgba(194, 184, 54, 0.938); /* Change the text color to black */
+    border-color: rgb(243, 243, 243); /* Change the border color to black */
+  }
+  
+  /* Optionally, you can add hover styles to make the button change color on hover */
+  .btn.btn-outline-danger:hover {
+    background-color: rgb(255, 255, 255); /* Change the background color on hover */
+    color:rgba(148, 139, 19, 0.938); /* Change the text color on hover */
+  }
+
+  /* Style each individual section */
+.hobbies,
+.skills,
+.expertise,
+.ambitions,
+.profession {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the section titles */
+.hobbies h1,
+.skills h1,
+.expertise h1,
+.ambitions h1,
+.profession h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the section content */
+.hobbies p,
+.skills p,
+.expertise p,
+.ambitions p,
+.profession p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #555;
+}
+  

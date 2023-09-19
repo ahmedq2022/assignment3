@@ -1,0 +1,59 @@
+/* Contact Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contact.css */
+/* Center the form vertically and horizontally */
+#form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000; /* Add a border to create a box */
+  padding: 20px; /* Add padding inside the box */
+  border-radius: 10px; /* Add rounded corners to the box */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Style for labels */
+.label {
+  font-size: 18px;
+}
+
+/* Style for the message textarea */
+.message {
+  height: 150px;
+  resize: none;
+  font-size: 18px;
+}
+
+/* Style for the "Contact Us" heading */
+.contact-heading {
+  font-size: 24px;
+  font-weight: bold; /* Make "Contact Us" bold */
+}
+
+/* Add colons to labels */
+
+
+/* Adjust spacing */
+.item {
+  margin-bottom: 20px;
+}
+/* Contact.css */
+
+/* Apply styles to the entire form */
+#form {
+  background: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Add some padding for content */
+  border-radius: 10px; /* Add rounded corners to the box */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+/* Rest of your existing styles remain the same */

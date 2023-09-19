@@ -1,0 +1,45 @@
+/* Add styles for the entire Favorite Personalities page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FavoritePersonalities.css */
+.personality-card {
+  background-color: #333; /* Dark background color */
+  color: white; /* Text color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+  margin: 10px;
+  text-align: center;
+}
+
+.personality-card img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0; /* Rounded corners for the top of the card */
+}
+
+.personality-card h3 {
+  margin-top: 10px;
+}
+
+.personality-card p {
+  margin-top: 10px;
+}
+.header5 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* Corrected color value */
+}
+
+
+
+
+
+  /* Add any additional styles as needed */
+  
